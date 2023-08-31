@@ -1,0 +1,148 @@
+body {
+    background: rgb(87, 87, 87);
+    color: rgb(15, 128, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*HEADER*/
+header {
+    background: rgb(0, 0, 0);
+    background-image: url("images/business.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo a {
+    background-image:url("images/real\ man.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -30px;
+    width: 150px; 
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul .link {
+    margin: 0px 20px 0px 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li.link  {
+    background: rgb(139, 12, 124);
+    border-radius: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;   
+}
+
+a { 
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+a:hover { 
+    text-decoration: underline; color:rgb(0, 0, 0); 
+}
+
+a:focus { 
+    text-decoration: none; color:rgb(255, 255, 255); 
+}
+
+a:visited { 
+    text-decoration: none; color:rgb(255, 255, 255); 
+}
+
+/*FEATURES*/
+.features {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+
+.features figure {
+    margin: auto;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0 0 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.feature-box div {
+    margin: auto;
+    width: 100%; 
+}
+
+.feature-box.sales div {
+    background: blue;
+}
+
+.feature-box.closeouts div {
+    background: rgb(255, 0, 0);
+}
+
+.John {
+    font-size: 20px;
+}
+
+/*SECTION*/
+section.christian {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background: rgb(196, 49, 4);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin: auto;
+    
+}
+
+footer {
+    background: black;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+/*RESPONSIVE RULES*/
+@media screen and (max-width: 800px) {
+    .features {
+        background: red;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .features {
+        background: blue;
+    }
+}
